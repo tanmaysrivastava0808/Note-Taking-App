@@ -6,7 +6,7 @@ import path from "path";
 import notesRoutes from "./routes/notesRoutes.js";
 import { connectDB } from "./config/db.js";
 import rateLimiter from "./middleware/rateLimiter.js";
-
+// hello
 dotenv.config();
 
 const app = express();
